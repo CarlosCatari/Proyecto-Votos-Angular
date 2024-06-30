@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-links-votes-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-links-votes-app');
+    expect(app.title2).toEqual('angular-links-votes-app');
   });
 
   it('should render title', () => {
